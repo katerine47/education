@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdf6ec;
+  --background-alt: #f6e9d4;
+  --foreground: #3a2e22;
+  --muted: #8a7462;
+  --card: #ffffff;
+  --border: #ead9bf;
+  --primary: #c1673b;
+  --primary-foreground: #fdf6ec;
+  --primary-dark: #9c4f2b;
+  --accent: #dfa054;
+  --ring: #c1673b;
+}
+
+.dark {
+  --background: #221a13;
+  --background-alt: #2c2119;
+  --foreground: #f3e6d3;
+  --muted: #b7a48f;
+  --card: #2c2119;
+  --border: #493a2b;
+  --primary: #e08a57;
+  --primary-foreground: #221a13;
+  --primary-dark: #f0a06e;
+  --accent: #e3b571;
+  --ring: #e08a57;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent: var(--accent);
+  --color-ring: var(--ring);
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-nunito);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--foreground);
+}
+
+/* Reveal-on-scroll animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
