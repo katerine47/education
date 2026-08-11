@@ -64,6 +64,19 @@ body {
   color: var(--foreground);
 }
 
+/* Spanish flag accent stripe */
+.flag-stripe {
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--primary) 25%,
+    var(--accent) 25%,
+    var(--accent) 75%,
+    var(--primary) 75%,
+    var(--primary) 100%
+  );
+}
+
 /* Reveal-on-scroll animation */
 .reveal {
   opacity: 0;

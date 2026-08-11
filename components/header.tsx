@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Guitar } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks, siteConfig } from "@/lib/site-data";
 import { Button } from "@/components/ui/button";
@@ -15,12 +15,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
+      <div className="flag-stripe h-1 w-full" aria-hidden />
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link
           href="/"
-          className="font-heading text-xl font-semibold tracking-tight text-primary-dark"
+          className="flex items-center gap-2 font-heading text-xl font-semibold tracking-tight text-primary-dark"
           onClick={() => setOpen(false)}
         >
+          <Guitar size={22} className="text-primary" aria-hidden />
           {siteConfig.name}
         </Link>
 

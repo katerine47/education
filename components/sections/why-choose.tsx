@@ -1,4 +1,4 @@
-import { Heart, Clock, MessageSquareText, Sparkles } from "lucide-react";
+import { Heart, Clock, MessageSquareText, Guitar } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 
 const points = [
@@ -18,9 +18,9 @@ const points = [
     text: "Уже на первых уроках вы начинаете говорить, а не только зубрить грамматику.",
   },
   {
-    icon: Sparkles,
-    title: "Индивидуальная программа",
-    text: "Учитываю цель, темп и интересы — будь то путешествия, работа или экзамен.",
+    icon: Guitar,
+    title: "Погружение в культуру",
+    text: "Музыка, кино и традиции испаноговорящих стран — язык через живую культуру.",
   },
 ];
 

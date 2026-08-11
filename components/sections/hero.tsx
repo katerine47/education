@@ -1,10 +1,11 @@
-import { BookOpen, MessageCircle, GraduationCap } from "lucide-react";
+import { BookOpen, MessageCircle, GraduationCap, Guitar, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/ui/reveal";
 
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-background-alt">
+      <div className="flag-stripe pointer-events-none absolute inset-x-0 top-0 h-1.5" aria-hidden />
       <div
         aria-hidden
         className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-accent/25 blur-3xl"
@@ -12,6 +13,16 @@ export function Hero() {
       <div
         aria-hidden
         className="pointer-events-none absolute -bottom-32 -left-16 h-72 w-72 rounded-full bg-primary/15 blur-3xl"
+      />
+      <Sun
+        aria-hidden
+        size={64}
+        className="pointer-events-none absolute right-8 top-10 hidden text-accent/50 sm:block"
+      />
+      <Guitar
+        aria-hidden
+        size={72}
+        className="pointer-events-none absolute -left-2 bottom-8 hidden -rotate-12 text-primary/20 sm:block"
       />
 
       <div className="relative mx-auto flex max-w-6xl flex-col items-center px-5 py-20 text-center sm:px-8 sm:py-28">

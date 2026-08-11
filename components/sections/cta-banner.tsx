@@ -1,3 +1,4 @@
+import { Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/ui/reveal";
 
@@ -15,7 +16,12 @@ export function CtaBanner({
   return (
     <section className="px-5 pb-20 sm:px-8">
       <Reveal>
-        <div className="mx-auto max-w-5xl rounded-3xl bg-primary px-8 py-14 text-center shadow-lg sm:px-16">
+        <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl bg-primary px-8 py-14 text-center shadow-lg sm:px-16">
+          <Sun
+            aria-hidden
+            size={140}
+            className="pointer-events-none absolute -right-8 -top-8 text-primary-foreground/10"
+          />
           <h2 className="font-heading text-3xl font-semibold text-primary-foreground sm:text-4xl">
             {title}
           </h2>
