@@ -29,7 +29,7 @@ export default function PricingPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {pricingPlans.map((plan, i) => (
             <Reveal key={plan.title} delay={i * 100}>
               <div
