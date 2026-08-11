@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Guitar } from "lucide-react";
+import { Menu, X, Sailboat } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks, siteConfig } from "@/lib/site-data";
 import { Button } from "@/components/ui/button";
@@ -22,7 +22,7 @@ export function Header() {
           className="flex items-center gap-2 font-heading text-xl font-semibold tracking-tight text-primary-dark"
           onClick={() => setOpen(false)}
         >
-          <Guitar size={22} className="text-primary" aria-hidden />
+          <Sailboat size={22} className="text-primary" aria-hidden />
           {siteConfig.name}
         </Link>
 

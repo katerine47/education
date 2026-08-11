@@ -1,4 +1,4 @@
-import { BookOpen, MessageCircle, GraduationCap, Guitar, Sun } from "lucide-react";
+import { BookOpen, MessageCircle, GraduationCap, Waves, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/ui/reveal";
 
@@ -19,10 +19,10 @@ export function Hero() {
         size={64}
         className="pointer-events-none absolute right-8 top-10 hidden text-accent/50 sm:block"
       />
-      <Guitar
+      <Waves
         aria-hidden
         size={72}
-        className="pointer-events-none absolute -left-2 bottom-8 hidden -rotate-12 text-primary/20 sm:block"
+        className="pointer-events-none absolute -left-2 bottom-8 hidden text-primary/20 sm:block"
       />
 
       <div className="relative mx-auto flex max-w-6xl flex-col items-center px-5 py-20 text-center sm:px-8 sm:py-28">
