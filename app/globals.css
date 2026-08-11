@@ -1,33 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbf8f2;
-  --background-alt: #eef3f1;
-  --foreground: #1f3438;
-  --muted: #6c7f7e;
+  --background: #fffdf6;
+  --background-alt: #fdf1d3;
+  --foreground: #2b1810;
+  --muted: #7a6a5c;
   --card: #ffffff;
-  --border: #dde6e2;
-  --primary: #1f7a8c;
-  --primary-foreground: #fbf8f2;
-  --primary-dark: #145868;
-  --accent: #d97a4a;
-  --olive: #7c9a5e;
-  --ring: #1f7a8c;
+  --border: #f3ddab;
+  --primary: #aa151b;
+  --primary-foreground: #fffdf6;
+  --primary-dark: #7d0e13;
+  --accent: #f1bf00;
+  --olive: #aa151b;
+  --ring: #aa151b;
 }
 
 .dark {
-  --background: #101e22;
-  --background-alt: #16282c;
-  --foreground: #eef3f0;
-  --muted: #9db3b0;
-  --card: #16282c;
-  --border: #24393d;
-  --primary: #4fb3c9;
-  --primary-foreground: #0d1a1d;
-  --primary-dark: #7ecbdd;
-  --accent: #e6905f;
-  --olive: #9bbb78;
-  --ring: #4fb3c9;
+  --background: #1c1310;
+  --background-alt: #241a14;
+  --foreground: #fbeed0;
+  --muted: #c9b291;
+  --card: #241a14;
+  --border: #3d2b21;
+  --primary: #e2454c;
+  --primary-foreground: #1c1310;
+  --primary-dark: #f1767c;
+  --accent: #f5cc33;
+  --olive: #e2454c;
+  --ring: #e2454c;
 }
 
 @theme inline {
@@ -67,16 +67,16 @@ body {
   color: var(--foreground);
 }
 
-/* Mediterranean accent stripe: sea, sun terracotta, olive */
+/* Spanish flag accent stripe: red-yellow-red */
 .flag-stripe {
   background: linear-gradient(
     90deg,
     var(--primary) 0%,
-    var(--primary) 33%,
-    var(--accent) 33%,
-    var(--accent) 66%,
-    var(--olive) 66%,
-    var(--olive) 100%
+    var(--primary) 25%,
+    var(--accent) 25%,
+    var(--accent) 75%,
+    var(--primary) 75%,
+    var(--primary) 100%
   );
 }
 
