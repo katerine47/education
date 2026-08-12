@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone, Guitar } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { navLinks, siteConfig } from "@/lib/site-data";
+import { Logo } from "@/components/logo";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-3">
         <div>
           <p className="flex items-center gap-2 font-heading text-xl font-semibold text-primary-dark">
-            <Guitar size={20} className="text-primary" aria-hidden />
+            <Logo size={28} />
             {siteConfig.name}
           </p>
           <p className="mt-2 max-w-xs text-sm text-muted">
