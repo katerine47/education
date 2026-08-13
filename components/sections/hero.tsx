@@ -28,42 +28,42 @@ export function Hero() {
       {/* Decorative background phrases */}
       <div
         aria-hidden
-        className="pointer-events-none absolute left-[3%] top-[8%] hidden max-w-[220px] -rotate-6 rounded-xl border-2 border-dashed border-primary/25 px-4 py-2.5 text-xs font-medium text-primary/40 md:block"
+        className="font-heading pointer-events-none absolute left-[1%] top-[6%] hidden max-w-[280px] -rotate-6 rounded-2xl border-4 border-dashed border-primary/35 px-5 py-3.5 text-xl font-bold leading-tight text-primary/50 md:block"
       >
         Сделай понятными фильмы Альмодовара, книги Маркеса и песни Шакиры
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute right-[4%] top-[6%] hidden max-w-[190px] rotate-3 rounded-full border border-accent/40 px-4 py-2 text-xs font-medium text-accent/60 lg:block"
+        className="font-heading pointer-events-none absolute right-[2%] top-[4%] hidden max-w-[240px] rotate-3 rounded-full border-4 border-accent/50 px-6 py-4 text-2xl font-bold leading-tight text-accent/70 lg:block"
       >
         Открой самому себе новые границы
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute left-[2%] top-[42%] hidden max-w-[200px] rotate-2 rounded-2xl border-2 border-primary/20 px-4 py-2.5 text-xs font-medium text-primary/35 lg:block"
+        className="font-heading pointer-events-none absolute left-[0%] top-[40%] hidden max-w-[260px] rotate-2 rounded-3xl border-4 border-primary/30 px-5 py-4 text-2xl font-bold leading-tight text-primary/45 lg:block"
       >
         Начни понимать второй по популярности язык в мире
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute right-[2%] top-[38%] hidden max-w-[190px] -rotate-3 rounded-xl border border-dashed border-accent/40 px-4 py-2 text-xs font-medium text-accent/55 md:block"
+        className="font-heading pointer-events-none absolute right-[0%] top-[36%] hidden max-w-[240px] -rotate-3 rounded-2xl border-4 border-dashed border-accent/50 px-5 py-3.5 text-xl font-bold leading-tight text-accent/65 md:block"
       >
         Повлияй на своё будущее и будущее своих детей
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute bottom-[4%] left-[6%] hidden max-w-[190px] rotate-3 rounded-full border-2 border-primary/25 px-4 py-2 text-xs font-medium text-primary/40 lg:block"
+        className="font-heading pointer-events-none absolute bottom-[2%] left-[4%] hidden max-w-[240px] rotate-3 rounded-full border-4 border-primary/35 px-6 py-4 text-2xl font-bold leading-tight text-primary/50 lg:block"
       >
         Саморазвивайся через изучение испанского языка
       </div>
       <div
         aria-hidden
-        className="pointer-events-none absolute bottom-[6%] right-[5%] hidden max-w-[190px] -rotate-2 rounded-2xl border border-accent/40 px-4 py-2.5 text-xs font-medium text-accent/60 md:block"
+        className="font-heading pointer-events-none absolute bottom-[4%] right-[3%] hidden max-w-[240px] -rotate-2 rounded-3xl border-4 border-accent/50 px-5 py-4 text-2xl font-bold leading-tight text-accent/70 md:block"
       >
         Начни мыслить в другом измерении
       </div>
 
-      <div className="relative mx-auto flex max-w-6xl flex-col items-center px-5 py-20 text-center sm:px-8 sm:py-28">
+      <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-5 py-20 text-center sm:px-8 sm:py-28">
         <Reveal>
           <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-1.5 text-sm font-medium text-primary-dark">
             <GraduationCap size={16} />
