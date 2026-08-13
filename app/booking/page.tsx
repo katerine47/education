@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
 import { BookingForm } from "@/components/booking-form";
 import { siteConfig } from "@/lib/site-data";
@@ -28,12 +28,6 @@ const contactItems = [
     label: "Telegram",
     value: "Написать в Telegram",
     href: siteConfig.telegram,
-  },
-  {
-    icon: MapPin,
-    label: "Формат занятий",
-    value: siteConfig.address,
-    href: undefined,
   },
 ];
 

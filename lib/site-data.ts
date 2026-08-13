@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: "Hola, Español",
   tagline: "Школа испанского языка",
-  phone: "+7 (900) 123-45-67",
+  phone: "+7 (911) 724-60-25",
   email: "hola@espanol-school.ru",
   address: "г. Москва, онлайн и очно по договорённости",
   instagram: "https://instagram.com",
-  telegram: "https://t.me",
+  telegram: "https://t.me/katerine_e",
   whatsapp: "https://wa.me/70000000000",
 };
 
