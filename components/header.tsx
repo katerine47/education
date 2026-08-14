@@ -15,7 +15,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="flag-stripe h-1 w-full" aria-hidden />
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8">
         <Link

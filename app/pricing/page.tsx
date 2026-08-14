@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <>
-      <section className="bg-background-alt px-5 py-16 text-center sm:px-8 sm:py-20">
+      <section className="bg-background-alt/90 px-5 py-16 text-center sm:px-8 sm:py-20">
         <Reveal>
           <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">
             Стоимость уроков
@@ -92,7 +92,7 @@ export default function PricingPage() {
         </Reveal>
       </section>
 
-      <div className="bg-background-alt">
+      <div className="bg-background-alt/90">
         <Faq />
       </div>
 

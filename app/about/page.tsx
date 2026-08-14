@@ -68,7 +68,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-background-alt py-20">
+      <section className="bg-background-alt/90 py-20">
         <div className="mx-auto max-w-4xl px-5 text-center sm:px-8">
           <Reveal>
             <h2 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">

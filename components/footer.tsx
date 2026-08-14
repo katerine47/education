@@ -5,7 +5,7 @@ import { Logo } from "@/components/logo";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-background-alt">
+    <footer className="border-t border-border bg-background-alt/90">
       <div className="flag-stripe h-1 w-full" aria-hidden />
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-3">
         <div>

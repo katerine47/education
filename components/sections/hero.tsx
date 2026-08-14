@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/reveal";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-background-alt">
+    <section className="relative overflow-hidden bg-background-alt/90">
       <div className="flag-stripe pointer-events-none absolute inset-x-0 top-0 h-1.5" aria-hidden />
       <div
         aria-hidden
