@@ -4,7 +4,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { BackgroundImages } from "@/components/background-images";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -45,7 +44,6 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <BackgroundImages />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
