@@ -43,7 +43,7 @@ export function BackgroundImages() {
       {backgroundPhotos.map((photo) => (
         <div
           key={photo.src}
-          className={`absolute overflow-hidden rounded-3xl opacity-[0.12] shadow-2xl dark:opacity-[0.08] ${photo.className}`}
+          className={`absolute overflow-hidden rounded-3xl opacity-45 shadow-2xl dark:opacity-30 ${photo.className}`}
         >
           <Image
             src={photo.src}
@@ -54,7 +54,7 @@ export function BackgroundImages() {
           />
         </div>
       ))}
-      <div className="absolute inset-0 bg-background/70 dark:bg-background/80" />
+      <div className="absolute inset-0 bg-background/35 dark:bg-background/55" />
     </div>
   );
 }
