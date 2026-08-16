@@ -43,8 +43,8 @@
   --color-accent: var(--accent);
   --color-olive: var(--olive);
   --color-ring: var(--ring);
-  --font-heading: var(--font-playfair);
-  --font-body: var(--font-nunito);
+  --font-heading: var(--font-neutral-face), var(--font-nunito);
+  --font-body: var(--font-neutral-face), var(--font-nunito);
 }
 
 * {
